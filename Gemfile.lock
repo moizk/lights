@@ -39,6 +39,9 @@ GEM
     erubis (2.7.0)
     execjs (2.1.0)
     hike (1.2.3)
+    hue (0.1.2)
+      multi_json
+      thor
     i18n (0.6.9)
     jbuilder (2.0.7)
       activesupport (>= 3.0.0, < 5)
@@ -114,6 +117,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
+  hue
   jbuilder (~> 2.0)
   jquery-rails
   rails (= 4.1.1)
