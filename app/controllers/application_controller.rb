@@ -5,7 +5,7 @@ class ApplicationController < ActionController::Base
   helper_method :loop_one, :flash
   def loop_one
     client = Hue::Client.new
-    light = client.lights.third
+    light = client.lights.first
     light.set_state({:effect => 'colorloop'})
   end
 
